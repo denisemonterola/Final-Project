@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <!-- ===== HEADER / NAVIGATION ===== -->
+    <header>
+        <nav class="navbar container" role="navigation">
+            <a href="#hero" class="logo">Denise</a>
+            <button class="hamburger" aria-label="Open navigation" aria-expanded="false" aria-controls="mobile-menu">
+                <!-- simple hamburger icon -->
+                <svg width="18" height="12" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <rect y="1" width="18" height="2" rx="1" fill="currentColor"></rect>
+                    <rect y="5" width="18" height="2" rx="1" fill="currentColor"></rect>
+                    <rect y="9" width="18" height="2" rx="1" fill="currentColor"></rect>
+                </svg>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ===== HERO SECTION ===== -->
+    <main>
+    <section id="hero" class="hero">
+        <div class="container hero-content">
+            <h2>Hello, I'm <span>Denise Monterola</span></h2>
+            <p>Aspiring Web Developer</p>
+            <a href="#projects" class="cta-btn">View My Work</a>
+        </div>
+    </section>
+
+    <!-- ===== ABOUT SECTION ===== -->
+    <section id="about" class="about section">
+        <div class="container">
+          <h2 class="section-title">About Me</h2>
+          <div class="about-content">
+              <img src="assets/images/maki-profile.jpg" alt="Denise Monterola" class="profile-pic" />
+              <article class="about-text">
+                  <p>
+                      I'm Denise Monterola, an aspiring web developer passionate about creating clean,
+                      responsive, and modern websites. I enjoy learning new technologies and improving my
+                      skills in front-end and back-end development. My goal is to become a full-stack developer.
+                  </p>
+              </article>
+          </div>
+        </div>
+    </section>
+
+    <!-- ===== SKILLS SECTION ===== -->
+        <section id="skills" class="skills section">
+            <div class="container">
+                <h2 class="section-title">Skills</h2>
+                <div class="skills-container">
+                        <div class="skill">HTML</div>
+                        <div class="skill">CSS</div>
+                        <div class="skill">JavaScript</div>
+                        <div class="skill">Python</div>
+                        <div class="skill">Responsive Design</div>
+                </div>
+            </div>
+        </section>
+
+    <!-- ===== PROJECTS SECTION ===== -->
+    <section id="projects" class="projects section">
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>Project One</h3>
+                <p>A simple front-end webpage using HTML & CSS.</p>
+            </div>
+
+            <div class="project-card">
+                <h3>Project Two</h3>
+                <p>A JavaScript mini-app with dynamic UI updates.</p>
+            </div>
+
+            <div class="project-card">
+                <h3>Project Three</h3>
+                <p>Responsive layout project using Flexbox & Grid.</p>
+            </div>
+        </div>
+            </div>
+    </section>
+
+    <!-- ===== CONTACT SECTION ===== -->
+    <section id="contact" class="contact section">
+      <div class="container">
+        <h2 class="section-title">Contact Me</h2>
+        <form class="contact-form" aria-label="Contact form">
+            <input type="text" placeholder="Your Name" required />
+            <input type="email" placeholder="Your Email" required />
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <div class="social-links">
+            <a href="">GitHub</a>
+            <a href="https://www.linkedin.com/in/">LinkedIn</a>
+            <a href="https://www.facebook.com/">Facebook</a>
+        </div>
+      </div>
+    </section>
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <p>© 2025 Denise Monterola — All Rights Reserved.</p>
+    </footer>
+    <script src="js/script.js" defer></script>
+</body>
+</html>
