@@ -1,6 +1,6 @@
 # Personal Portfolio — Denise Monterola
 
-**Live site:** https://github.com/denisemonterola/Portfolio-Website.git
+**Live site:** https://denisemonterola.github.io/Final-Project/
 
 ## Overview
 This is my personal portfolio website built for IT ELECTIVE 3 final project.  
